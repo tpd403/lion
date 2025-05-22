@@ -1,0 +1,38 @@
+/* src/components/ImageCard.css */
+
+.image-card {
+  width: 100%;
+  max-width: 294px;
+  background-color: white;
+  border: none;
+
+}
+
+.image-card-img {
+  width: 100%;
+  height: 392px;
+  object-fit: cover
+}
+
+.image-card-text h3 {
+  font-size: 28px;
+  font: 'AppleBold', sans-serif;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.image-card-text p {
+  height: 56px;
+  align-self: stretch;
+  font-size: 24px;
+  font-family: "AbhayaLibreRegular", sans-serif;
+  margin-bottom: 100px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;   /* ✅ 1 → 2 로 변경 */
+  line-clamp: 2;  
+}
