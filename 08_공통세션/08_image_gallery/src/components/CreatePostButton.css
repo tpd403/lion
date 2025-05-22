@@ -1,0 +1,19 @@
+.create-post-button {
+  background-color: #fff; 
+  border: 1px solid black;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+	padding: 24px 48px;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+.create-post-button:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+  box-shadow: none;
+}

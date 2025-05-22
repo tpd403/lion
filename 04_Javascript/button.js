@@ -6,13 +6,13 @@ const decreaseBtn = document.getElementById("decrease");
 let count = 0;
 
 // 증가
-increaseBtn.addEventListener("click", () => {
+increaseBtn.addEventListener("mouseover", () => {
   count++;
   countDisplay.textContent = count;
 });
 
 // 감소
-decreaseBtn.addEventListener("click", () => {
+decreaseBtn.addEventListener("mouseover", () => {
   count--;
   countDisplay.textContent = count;
 });

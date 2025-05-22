@@ -1,0 +1,38 @@
+/* MainPage.css */
+
+.main-page {
+  max-width: 1440px;
+  padding: 96px 96px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagetext {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-self: flex-start;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}

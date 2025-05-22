@@ -1,0 +1,66 @@
+.post-detail {
+  max-width: 1440px;
+  padding-left: 96px;
+  padding-right: 96px;
+  background-color: #fff;
+  align-items: center;
+}
+
+.detail-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-image{
+  padding: 0;
+  aspect-ratio: 3 / 4;
+  max-width: 600px;
+  overflow: hidden;
+  border: none;
+}
+
+.detail-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.detail-title-date {
+	line-height: normal;
+	text-align: right;
+	font-style: normal;
+}
+
+.detail-title-date .title {
+	font-family: 'AppleBold', sans-serif;
+	font-size: 100px;
+	font-weight: 700;
+	color: #000;
+}
+.detail-title-date .date {
+  font-family: 'AppleMedium', sans-serif;
+  font-size: 24px;
+	font-weight: 500;
+	color: #363636;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 240px;
+	font-family: 'AbhayaLibreRegular', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #000;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 36px;
+  transition: 0.2s ease;
+	margin-bottom: 238px;
+	font-family: "AppleRegular", sans-serif;
+}

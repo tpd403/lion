@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Italiana';
+  src: url('./Italiana-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleBold';
+  src: url('./AppleSDGothicNeoB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleSemiBold';
+  src: url('./AppleSDGothicNeoSB.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleMedium';
+  src: url('./AppleSDGothicNeoM.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AppleRegular';
+  src: url('./AppleSDGothicNeoR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbhayaLibreBold';
+  src: url('./AbhayaLibre-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AbhayaLibreRegular';
+  src: url('./AbhayaLibre-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

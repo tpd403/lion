@@ -23,17 +23,6 @@ function getAddress() {
 }
 
 
-getName().then((res) => {
-    console.log(res);
-})
-
-getAge().then((res) => {
-    console.log(res);
-})
-
-getAddress().then((res) => {
-    console.log(res);
-})
 
 Promise
     .all([getName(), getAge(), getAddress()])
